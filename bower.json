@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "homepage": "https://github.com/environmentalcodeclub/website",
+  "authors": [
+    "mickyginger <mickyginger@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-resource": "^1.5.5",
+    "angular-ui-router": "^0.2.18"
+  }
+}
