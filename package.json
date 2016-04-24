@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/environmentalcodeclub/website.git"
+  },
+  "author": "Mike Hayden <mickyginger@gmail.com> (https://github.com/mickyginger)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/environmentalcodeclub/website/issues"
+  },
+  "homepage": "https://github.com/environmentalcodeclub/website#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "request-promise": "^3.0.0"
+  }
+}

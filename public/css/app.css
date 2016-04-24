@@ -1,0 +1,13 @@
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+.media-list .media-left img {
+  width: 80px;
+}
+
+.media-list .media-body .role {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 12px;
+}

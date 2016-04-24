@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="ecc">
+<head>
+  <title>Environmental Code Club</title>
+  <script src="/vendor/angular/angular.min.js"></script>
+  <script src="/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/controllers/main.js"></script>
+  <link rel="stylesheet" href="/vendor/bootstrap-css-only/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <main ng-controller="mainController as main" class="container">
+    <h1>Members</h1>
+    <ul class="list-group media-list">
+      <li class="list-group-item media" ng-repeat="member in main.members">
+        <div class="media-left">
+          <img ng-src="{{ member.photo.thumb_link }}">
+        </div>
+        <div class="media-body">
+          <h5 class="role" ng-if="member.group_profile.role">{{ member.group_profile.role }}</h2>
+          <h4>{{ member.name }}</h4>
+          <p>{{ member.city }}</p>
+        </div>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
